@@ -16,7 +16,7 @@ public class Comment extends Model
  @Lob
  public String content;
  @ManyToOne
- public Post post;
+ public Post post;	
  public Comment(String author,String content,Post post)
  {
 	 this.author=author;
